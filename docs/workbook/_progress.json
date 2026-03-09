@@ -1,0 +1,30 @@
+{
+  "completed": [
+    "how-sre-relates",
+    "implementing-slos",
+    "slo-engineering-case-studies",
+    "monitoring",
+    "alerting-on-slos",
+    "eliminating-toil",
+    "simplicity",
+    "on-call",
+    "incident-response",
+    "postmortem-culture",
+    "managing-load",
+    "non-abstract-design",
+    "data-processing",
+    "configuration-design",
+    "configuration-specifics",
+    "canarying-releases",
+    "overload",
+    "engagement-model",
+    "reaching-beyond",
+    "team-lifecycles",
+    "organizational-change",
+    "conclusion",
+    "slo-document",
+    "error-budget-policy",
+    "postmortem-analysis"
+  ],
+  "failed": []
+}

@@ -1,0 +1,189 @@
+{
+  "title": "Building Secure and Reliable Systems",
+  "base_url": "https://google.github.io/building-secure-and-reliable-systems/raw/",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Intersection of Security and Reliability",
+      "slug": "intersection-security-reliability",
+      "file": "ch01_intersection-security-reliability.md",
+      "type": "chapter",
+      "part": "I - Introductory Material"
+    },
+    {
+      "number": 2,
+      "title": "Understanding Adversaries",
+      "slug": "understanding-adversaries",
+      "file": "ch02_understanding-adversaries.md",
+      "type": "chapter",
+      "part": "I - Introductory Material"
+    },
+    {
+      "number": 3,
+      "title": "Case Study: Safe Proxies",
+      "slug": "safe-proxies",
+      "file": "ch03_safe-proxies.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 4,
+      "title": "Design Tradeoffs",
+      "slug": "design-tradeoffs",
+      "file": "ch04_design-tradeoffs.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 5,
+      "title": "Design for Least Privilege",
+      "slug": "design-least-privilege",
+      "file": "ch05_design-least-privilege.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 6,
+      "title": "Design for Understandability",
+      "slug": "design-understandability",
+      "file": "ch06_design-understandability.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 7,
+      "title": "Design for a Changing Landscape",
+      "slug": "design-changing-landscape",
+      "file": "ch07_design-changing-landscape.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 8,
+      "title": "Design for Resilience",
+      "slug": "design-resilience",
+      "file": "ch08_design-resilience.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 9,
+      "title": "Design for Recovery",
+      "slug": "design-recovery",
+      "file": "ch09_design-recovery.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 10,
+      "title": "Mitigating Denial-of-Service Attacks",
+      "slug": "mitigating-dos",
+      "file": "ch10_mitigating-dos.md",
+      "type": "chapter",
+      "part": "II - Designing Systems"
+    },
+    {
+      "number": 11,
+      "title": "Case Study: Designing, Implementing, and Maintaining a Publicly Trusted CA",
+      "slug": "publicly-trusted-ca",
+      "file": "ch11_publicly-trusted-ca.md",
+      "type": "chapter",
+      "part": "III - Implementing Systems"
+    },
+    {
+      "number": 12,
+      "title": "Writing Code",
+      "slug": "writing-code",
+      "file": "ch12_writing-code.md",
+      "type": "chapter",
+      "part": "III - Implementing Systems"
+    },
+    {
+      "number": 13,
+      "title": "Testing Code",
+      "slug": "testing-code",
+      "file": "ch13_testing-code.md",
+      "type": "chapter",
+      "part": "III - Implementing Systems"
+    },
+    {
+      "number": 14,
+      "title": "Deploying Code",
+      "slug": "deploying-code",
+      "file": "ch14_deploying-code.md",
+      "type": "chapter",
+      "part": "III - Implementing Systems"
+    },
+    {
+      "number": 15,
+      "title": "Investigating Systems",
+      "slug": "investigating-systems",
+      "file": "ch15_investigating-systems.md",
+      "type": "chapter",
+      "part": "III - Implementing Systems"
+    },
+    {
+      "number": 16,
+      "title": "Disaster Planning",
+      "slug": "disaster-planning",
+      "file": "ch16_disaster-planning.md",
+      "type": "chapter",
+      "part": "IV - Maintaining Systems"
+    },
+    {
+      "number": 17,
+      "title": "Crisis Management",
+      "slug": "crisis-management",
+      "file": "ch17_crisis-management.md",
+      "type": "chapter",
+      "part": "IV - Maintaining Systems"
+    },
+    {
+      "number": 18,
+      "title": "Recovery and Aftermath",
+      "slug": "recovery-aftermath",
+      "file": "ch18_recovery-aftermath.md",
+      "type": "chapter",
+      "part": "IV - Maintaining Systems"
+    },
+    {
+      "number": 19,
+      "title": "Case Study: Chrome Security Team",
+      "slug": "chrome-security",
+      "file": "ch19_chrome-security.md",
+      "type": "chapter",
+      "part": "V - Organization and Culture"
+    },
+    {
+      "number": 20,
+      "title": "Understanding Roles and Responsibilities",
+      "slug": "roles-responsibilities",
+      "file": "ch20_roles-responsibilities.md",
+      "type": "chapter",
+      "part": "V - Organization and Culture"
+    },
+    {
+      "number": 21,
+      "title": "Building a Culture of Security and Reliability",
+      "slug": "culture",
+      "file": "ch21_culture.md",
+      "type": "chapter",
+      "part": "V - Organization and Culture"
+    },
+    {
+      "number": 0,
+      "title": "Conclusion",
+      "slug": "conclusion",
+      "file": "conclusion_conclusion.md",
+      "type": "conclusion"
+    },
+    {
+      "number": 0,
+      "title": "A Disaster Risk Assessment Matrix",
+      "slug": "disaster-risk-matrix",
+      "file": "appendix_a_disaster-risk-matrix.md",
+      "type": "appendix",
+      "part": "Appendix A"
+    }
+  ]
+}

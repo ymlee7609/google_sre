@@ -1,0 +1,438 @@
+{
+  "title": "Site Reliability Engineering",
+  "base_url": "https://sre.google/sre-book/",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction",
+      "slug": "introduction",
+      "file": "ch01_introduction.md",
+      "type": "chapter",
+      "part": "I - Introduction",
+      "authors": [
+        "Benjamin Treynor Sloss"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Production Environment at Google, from the Viewpoint of an SRE",
+      "slug": "production-environment",
+      "file": "ch02_production-environment.md",
+      "type": "chapter",
+      "part": "I - Introduction",
+      "authors": [
+        "JC van Winkel"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Embracing Risk",
+      "slug": "embracing-risk",
+      "file": "ch03_embracing-risk.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Marc Alvidrez"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Service Level Objectives",
+      "slug": "service-level-objectives",
+      "file": "ch04_service-level-objectives.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Chris Jones",
+        "John Wilkes",
+        "Niall Murphy"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Eliminating Toil",
+      "slug": "eliminating-toil",
+      "file": "ch05_eliminating-toil.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Vivek Rau"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Monitoring Distributed Systems",
+      "slug": "monitoring-distributed-systems",
+      "file": "ch06_monitoring-distributed-systems.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Rob Ewaschuk"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Evolution of Automation at Google",
+      "slug": "automation-at-google",
+      "file": "ch07_automation-at-google.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Niall Murphy",
+        "John Looney",
+        "Michael Kacirek"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Release Engineering",
+      "slug": "release-engineering",
+      "file": "ch08_release-engineering.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Dinah McNutt"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Simplicity",
+      "slug": "simplicity",
+      "file": "ch09_simplicity.md",
+      "type": "chapter",
+      "part": "II - Principles",
+      "authors": [
+        "Max Luebbe"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Practical Alerting from Time-Series Data",
+      "slug": "practical-alerting",
+      "file": "ch10_practical-alerting.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Jamie Wilkinson"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Being On-Call",
+      "slug": "being-on-call",
+      "file": "ch11_being-on-call.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Andrea Spadaccini"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Effective Troubleshooting",
+      "slug": "effective-troubleshooting",
+      "file": "ch12_effective-troubleshooting.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Chris Jones"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Emergency Response",
+      "slug": "emergency-response",
+      "file": "ch13_emergency-response.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Andrew Stribblehill"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Managing Incidents",
+      "slug": "managing-incidents",
+      "file": "ch14_managing-incidents.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Andrew Stribblehill"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Postmortem Culture: Learning from Failure",
+      "slug": "postmortem-culture",
+      "file": "ch15_postmortem-culture.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "John Googler"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Tracking Outages",
+      "slug": "tracking-outages",
+      "file": "ch16_tracking-outages.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Margo Fero"
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Testing for Reliability",
+      "slug": "testing-reliability",
+      "file": "ch17_testing-reliability.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Alex Perry",
+        "Max Luebbe"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Software Engineering in SRE",
+      "slug": "software-engineering-in-sre",
+      "file": "ch18_software-engineering-in-sre.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Dave Helstroom",
+        "Trisha Weir",
+        "Evan Leonard",
+        "Kurt Schwehr"
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Load Balancing at the Frontend",
+      "slug": "load-balancing-frontend",
+      "file": "ch19_load-balancing-frontend.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Piotr Lewandowski"
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Load Balancing in the Datacenter",
+      "slug": "load-balancing-datacenter",
+      "file": "ch20_load-balancing-datacenter.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Alejandro Forero Cuervo"
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Handling Overload",
+      "slug": "handling-overload",
+      "file": "ch21_handling-overload.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Alejandro Forero Cuervo"
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Addressing Cascading Failures",
+      "slug": "addressing-cascading-failures",
+      "file": "ch22_addressing-cascading-failures.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Mike Ulrich"
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Managing Critical State: Distributed Consensus for Reliability",
+      "slug": "managing-critical-state",
+      "file": "ch23_managing-critical-state.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Laura Nolan"
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Distributed Periodic Scheduling with Cron",
+      "slug": "distributed-periodic-scheduling",
+      "file": "ch24_distributed-periodic-scheduling.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Stepan Davidovic"
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Data Processing Pipelines",
+      "slug": "data-processing-pipelines",
+      "file": "ch25_data-processing-pipelines.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Dan Dennison"
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Data Integrity: What You Read Is What You Wrote",
+      "slug": "data-integrity",
+      "file": "ch26_data-integrity.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Raymond Blum",
+        "Rhandeev Singh"
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Reliable Product Launches at Scale",
+      "slug": "reliable-product-launches",
+      "file": "ch27_reliable-product-launches.md",
+      "type": "chapter",
+      "part": "III - Practices",
+      "authors": [
+        "Laura Nolan"
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Accelerating SREs to On-Call and Beyond",
+      "slug": "accelerating-sre-on-call",
+      "file": "ch28_accelerating-sre-on-call.md",
+      "type": "chapter",
+      "part": "IV - Management",
+      "authors": [
+        "Andrew Widdowson"
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Dealing with Interrupts",
+      "slug": "dealing-with-interrupts",
+      "file": "ch29_dealing-with-interrupts.md",
+      "type": "chapter",
+      "part": "IV - Management",
+      "authors": [
+        "Dave O'Connor"
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Embedding an SRE to Recover from Operational Overload",
+      "slug": "operational-overload",
+      "file": "ch30_operational-overload.md",
+      "type": "chapter",
+      "part": "IV - Management",
+      "authors": [
+        "Randall Bosetti"
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Communication and Collaboration in SRE",
+      "slug": "communication-and-collaboration",
+      "file": "ch31_communication-and-collaboration.md",
+      "type": "chapter",
+      "part": "IV - Management",
+      "authors": [
+        "Niall Murphy"
+      ]
+    },
+    {
+      "number": 32,
+      "title": "The Evolving SRE Engagement Model",
+      "slug": "evolving-sre-engagement-model",
+      "file": "ch32_evolving-sre-engagement-model.md",
+      "type": "chapter",
+      "part": "IV - Management",
+      "authors": [
+        "Acacio Cruz",
+        "Henry L. F. Samuels"
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Lessons Learned from Other Industries",
+      "slug": "lessons-learned",
+      "file": "ch33_lessons-learned.md",
+      "type": "chapter",
+      "part": "V - Conclusions",
+      "authors": [
+        "Jennifer Petoff"
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Conclusion",
+      "slug": "conclusion",
+      "file": "ch34_conclusion.md",
+      "type": "chapter",
+      "part": "V - Conclusions",
+      "authors": [
+        "Benjamin Treynor Sloss"
+      ]
+    },
+    {
+      "number": 0,
+      "title": "Availability Table",
+      "slug": "availability-table",
+      "file": "appendix_a_availability-table.md",
+      "type": "appendix",
+      "part": "Appendix A"
+    },
+    {
+      "number": 0,
+      "title": "A Collection of Best Practices for Production Services",
+      "slug": "service-best-practices",
+      "file": "appendix_b_service-best-practices.md",
+      "type": "appendix",
+      "part": "Appendix B"
+    },
+    {
+      "number": 0,
+      "title": "Example Incident State Document",
+      "slug": "incident-document",
+      "file": "appendix_c_incident-document.md",
+      "type": "appendix",
+      "part": "Appendix C"
+    },
+    {
+      "number": 0,
+      "title": "Example Postmortem",
+      "slug": "example-postmortem",
+      "file": "appendix_d_example-postmortem.md",
+      "type": "appendix",
+      "part": "Appendix D"
+    },
+    {
+      "number": 0,
+      "title": "Launch Coordination Checklist",
+      "slug": "launch-checklist",
+      "file": "appendix_e_launch-checklist.md",
+      "type": "appendix",
+      "part": "Appendix E"
+    },
+    {
+      "number": 0,
+      "title": "Example Production Meeting Minutes",
+      "slug": "production-meeting",
+      "file": "appendix_f_production-meeting.md",
+      "type": "appendix",
+      "part": "Appendix F"
+    }
+  ]
+}

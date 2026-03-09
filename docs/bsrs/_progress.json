@@ -1,0 +1,28 @@
+{
+  "completed": [
+    "intersection-security-reliability",
+    "understanding-adversaries",
+    "safe-proxies",
+    "design-tradeoffs",
+    "design-least-privilege",
+    "design-understandability",
+    "design-changing-landscape",
+    "design-resilience",
+    "design-recovery",
+    "mitigating-dos",
+    "publicly-trusted-ca",
+    "writing-code",
+    "testing-code",
+    "deploying-code",
+    "investigating-systems",
+    "disaster-planning",
+    "crisis-management",
+    "recovery-aftermath",
+    "chrome-security",
+    "roles-responsibilities",
+    "culture",
+    "conclusion",
+    "disaster-risk-matrix"
+  ],
+  "failed": []
+}

@@ -1,0 +1,205 @@
+{
+  "title": "The Site Reliability Workbook",
+  "base_url": "https://sre.google/workbook/",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "How SRE Relates to DevOps",
+      "slug": "how-sre-relates",
+      "file": "ch01_how-sre-relates.md",
+      "type": "chapter",
+      "part": "Introduction"
+    },
+    {
+      "number": 2,
+      "title": "Implementing SLOs",
+      "slug": "implementing-slos",
+      "file": "ch02_implementing-slos.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 3,
+      "title": "SLO Engineering Case Studies",
+      "slug": "slo-engineering-case-studies",
+      "file": "ch03_slo-engineering-case-studies.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 4,
+      "title": "Monitoring",
+      "slug": "monitoring",
+      "file": "ch04_monitoring.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 5,
+      "title": "Alerting on SLOs",
+      "slug": "alerting-on-slos",
+      "file": "ch05_alerting-on-slos.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 6,
+      "title": "Eliminating Toil",
+      "slug": "eliminating-toil",
+      "file": "ch06_eliminating-toil.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 7,
+      "title": "Simplicity",
+      "slug": "simplicity",
+      "file": "ch07_simplicity.md",
+      "type": "chapter",
+      "part": "I - Foundations"
+    },
+    {
+      "number": 8,
+      "title": "On-Call",
+      "slug": "on-call",
+      "file": "ch08_on-call.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 9,
+      "title": "Incident Response",
+      "slug": "incident-response",
+      "file": "ch09_incident-response.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 10,
+      "title": "Postmortem Culture: Learning from Failure",
+      "slug": "postmortem-culture",
+      "file": "ch10_postmortem-culture.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 11,
+      "title": "Managing Load",
+      "slug": "managing-load",
+      "file": "ch11_managing-load.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 12,
+      "title": "Introducing Non-Abstract Large System Design",
+      "slug": "non-abstract-design",
+      "file": "ch12_non-abstract-design.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 13,
+      "title": "Data Processing Pipelines",
+      "slug": "data-processing",
+      "file": "ch13_data-processing.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 14,
+      "title": "Configuration Design and Best Practices",
+      "slug": "configuration-design",
+      "file": "ch14_configuration-design.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 15,
+      "title": "Configuration Specifics",
+      "slug": "configuration-specifics",
+      "file": "ch15_configuration-specifics.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 16,
+      "title": "Canarying Releases",
+      "slug": "canarying-releases",
+      "file": "ch16_canarying-releases.md",
+      "type": "chapter",
+      "part": "II - Practices"
+    },
+    {
+      "number": 17,
+      "title": "Identifying and Recovering from Overload",
+      "slug": "overload",
+      "file": "ch17_overload.md",
+      "type": "chapter",
+      "part": "III - Processes"
+    },
+    {
+      "number": 18,
+      "title": "SRE Engagement Model",
+      "slug": "engagement-model",
+      "file": "ch18_engagement-model.md",
+      "type": "chapter",
+      "part": "III - Processes"
+    },
+    {
+      "number": 19,
+      "title": "SRE: Reaching Beyond Your Walls",
+      "slug": "reaching-beyond",
+      "file": "ch19_reaching-beyond.md",
+      "type": "chapter",
+      "part": "III - Processes"
+    },
+    {
+      "number": 20,
+      "title": "SRE Team Lifecycles",
+      "slug": "team-lifecycles",
+      "file": "ch20_team-lifecycles.md",
+      "type": "chapter",
+      "part": "III - Processes"
+    },
+    {
+      "number": 21,
+      "title": "Organizational Change Management in SRE",
+      "slug": "organizational-change",
+      "file": "ch21_organizational-change.md",
+      "type": "chapter",
+      "part": "III - Processes"
+    },
+    {
+      "number": 0,
+      "title": "Conclusion",
+      "slug": "conclusion",
+      "file": "conclusion_conclusion.md",
+      "type": "conclusion"
+    },
+    {
+      "number": 0,
+      "title": "Example SLO Document",
+      "slug": "slo-document",
+      "file": "appendix_a_slo-document.md",
+      "type": "appendix",
+      "part": "Appendix A"
+    },
+    {
+      "number": 0,
+      "title": "Example Error Budget Policy",
+      "slug": "error-budget-policy",
+      "file": "appendix_b_error-budget-policy.md",
+      "type": "appendix",
+      "part": "Appendix B"
+    },
+    {
+      "number": 0,
+      "title": "Results of Postmortem Analysis",
+      "slug": "postmortem-analysis",
+      "file": "appendix_c_postmortem-analysis.md",
+      "type": "appendix",
+      "part": "Appendix C"
+    }
+  ]
+}
