@@ -150,3 +150,130 @@ Google SRE 3권의 주제별 상세 챕터 매핑입니다. 스킬이 사용자 
 | circuit breaker, bulkhead, fault isolation | 서킷 브레이커, 격벽, 장애 격리, 회로 차단기 | Resilience Patterns | BSRS ch08, SRE Book ch22 |
 | retry, timeout, deadline, exponential backoff | 재시도, 타임아웃, 데드라인, 지수 백오프 | Retry/Timeout | SRE Book ch21-22, Workbook ch17 |
 | dashboard, visualization, white-box, black-box | 대시보드, 시각화, 화이트박스, 블랙박스 모니터링 | Monitoring Patterns | SRE Book ch06, ch10, Workbook ch04 |
+
+## Section-Level Index
+
+주요 키워드별 정확한 줄 번호 범위입니다. Read 시 `offset`/`limit`으로 직행할 수 있습니다.
+
+### SRE Book
+
+| 키워드 | 파일 | 줄 범위 | 세부 섹션 |
+|--------|------|---------|----------|
+| error budget | ch03_embracing-risk.md | 154-210 | 에러 버짓 동기, 형성, 이점 |
+| SLI 정의 | ch04_service-level-objectives.md | 25-34 | SLI 개념 정의 |
+| SLI 실무 | ch04_service-level-objectives.md | 65-116 | 수집, 집계, 표준화 |
+| SLO 정의 | ch04_service-level-objectives.md | 35-56 | SLO 개념 정의 |
+| SLO 실무 | ch04_service-level-objectives.md | 117-197 | 목표 설정, 선택, 기대치 관리 |
+| four golden signals | ch06_monitoring-distributed-systems.md | 112-133 | latency, traffic, errors, saturation |
+| toil 정의 | ch05_eliminating-toil.md | 21-62 | 토일 정의, 측정, 비용 |
+| toil 문제점 | ch05_eliminating-toil.md | 83-111 | 토일이 항상 나쁜가? |
+| automation hierarchy | ch07_automation-at-google.md | 86-112 | 자동화 5단계 계층 |
+| automation value | ch07_automation-at-google.md | 21-50 | 자동화의 가치 |
+| on-call balanced | ch11_being-on-call.md | 45-69 | 균형 잡힌 온콜 |
+| on-call feeling safe | ch11_being-on-call.md | 74-102 | 심리적 안전감 |
+| on-call overload | ch11_being-on-call.md | 107-128 | 운영 과부하/과소부하 |
+| troubleshooting theory | ch12_effective-troubleshooting.md | 28-54 | 이론: 가설-검증 방법론 |
+| troubleshooting triage | ch12_effective-troubleshooting.md | 69-80 | 분류(Triage) |
+| troubleshooting diagnose | ch12_effective-troubleshooting.md | 127-168 | 진단 기법 |
+| troubleshooting case study | ch12_effective-troubleshooting.md | 216-255 | 실제 사례 |
+| incident roles | ch14_managing-incidents.md | 45-86 | 역할 분담, 재귀적 분리 |
+| incident command post | ch14_managing-incidents.md | 71-82 | 지휘소, 라이브 문서 |
+| incident when to declare | ch14_managing-incidents.md | 105-118 | 인시던트 선언 기준 |
+| incident best practices | ch14_managing-incidents.md | 119-137 | 모범 사례 |
+| blameless philosophy | ch15_postmortem-culture.md | 23-50 | 비난 없는 문화 철학 |
+| blameless sharing | ch15_postmortem-culture.md | 51-81 | 협업과 공유 |
+| blameless culture intro | ch15_postmortem-culture.md | 82-113 | 문화 도입 방법 |
+| chaos/DiRT testing | ch17_testing-reliability.md | 210-229 | 재해 테스트, 통계 테스트 |
+| load shedding overview | ch21_handling-overload.md | 15-56 | 과부하 개요, 고객별 제한 |
+| load shedding throttling | ch21_handling-overload.md | 57-91 | 클라이언트 측 스로틀링 |
+| load shedding criticality | ch21_handling-overload.md | 92-121 | 요청 중요도 분류 |
+| load shedding errors | ch21_handling-overload.md | 132-179 | 과부하 오류 처리 |
+| cascading causes | ch22_addressing-cascading-failures.md | 30-120 | 원인: 서버 과부하, 리소스 고갈 |
+| cascading queue mgmt | ch22_addressing-cascading-failures.md | 156-190 | 큐 관리, 부하 차단 |
+| cascading retries | ch22_addressing-cascading-failures.md | 191-254 | 재시도 전략 |
+| cascading deadlines | ch22_addressing-cascading-failures.md | 255-347 | 지연시간, 데드라인 |
+| cascading testing | ch22_addressing-cascading-failures.md | 408-444 | 연쇄 장애 테스트 |
+| data integrity strategy | ch26_data-integrity.md | 46-106 | 전략, 백업 vs 아카이브 |
+| data integrity google | ch26_data-integrity.md | 126-390 | Google SRE 목표, 도전 대응 |
+| data integrity cases | ch26_data-integrity.md | 391-501 | 사례 연구 |
+| data integrity principles | ch26_data-integrity.md | 502-529 | 일반 원칙 |
+| launch checklist | ch27_reliable-product-launches.md | 97-133 | 출시 체크리스트 |
+| launch developing | ch27_reliable-product-launches.md | 134-252 | 체크리스트 개발 |
+| launch techniques | ch27_reliable-product-launches.md | 253-321 | 선별 기법 |
+
+### Workbook
+
+| 키워드 | 파일 | 줄 범위 | 세부 섹션 |
+|--------|------|---------|----------|
+| SLO why needed | ch02_implementing-slos.md | 20-44 | SRE에 SLO가 필요한 이유 |
+| SLO reliability targets | ch02_implementing-slos.md | 45-61 | 신뢰성 목표, 에러 버짓 |
+| SLI what to measure | ch02_implementing-slos.md | 62-164 | SLI 측정 대상 |
+| SLI to implementation | ch02_implementing-slos.md | 165-262 | SLI 구현 및 측정 |
+| SLO starter | ch02_implementing-slos.md | 263-325 | 시작 SLO |
+| SLO error budget policy | ch02_implementing-slos.md | 326-371 | 에러 버짓 정책, 문서화 |
+| SLO dashboards | ch02_implementing-slos.md | 372-404 | 대시보드, 리포트 |
+| SLO advanced | ch02_implementing-slos.md | 481-576 | 고급 주제 |
+| monitoring interfaces | ch04_monitoring.md | 54-90 | 인터페이스, 데이터 소스 |
+| monitoring managing | ch04_monitoring.md | 138-175 | 모니터링 시스템 관리 |
+| monitoring metrics | ch04_monitoring.md | 176-241 | 목적 있는 메트릭 |
+| monitoring testing | ch04_monitoring.md | 242-259 | 알림 테스트 |
+| burn rate basics | ch05_alerting-on-slos.md | 205-272 | 번 레이트 기본 |
+| burn rate multiple | ch05_alerting-on-slos.md | 273-341 | 다중 번 레이트 |
+| burn rate multiwindow | ch05_alerting-on-slos.md | 342-419 | 다중 윈도우 다중 번 레이트 |
+| toil what is | ch06_eliminating-toil.md | 20-67 | 토일이란 무엇인가 |
+| toil measuring | ch06_eliminating-toil.md | 68-95 | 토일 측정 |
+| toil taxonomy | ch06_eliminating-toil.md | 96-137 | 토일 분류 체계 |
+| toil strategies | ch06_eliminating-toil.md | 138-227 | 관리 전략 |
+| toil case study 1 | ch06_eliminating-toil.md | 238-437 | 사례 1: 데이터센터 |
+| toil case study 2 | ch06_eliminating-toil.md | 438-622 | 사례 2 |
+| canary what is | ch16_canarying-releases.md | 77-110 | 카나리 릴리스 정의, 요건 |
+| canary implementation | ch16_canarying-releases.md | 139-176 | 구현: 리스크 최소화, 규모, 기간 |
+| canary metrics | ch16_canarying-releases.md | 177-255 | 메트릭 선택 |
+| canary related | ch16_canarying-releases.md | 256-279 | 관련 개념 (블루/그린 등) |
+| capacity cloud LB | ch11_managing-load.md | 19-145 | 클라우드 로드 밸런싱 |
+| capacity autoscaling | ch11_managing-load.md | 146-207 | 오토스케일링 |
+| capacity combined | ch11_managing-load.md | 208-274 | 전략 결합, 부하 차단 사례 |
+| NALSD process | ch12_non-abstract-design.md | 39-72 | 설계 프로세스 |
+| NALSD one machine | ch12_non-abstract-design.md | 93-174 | 단일 머신 설계 |
+| NALSD distributed | ch12_non-abstract-design.md | 175-369 | 분산 시스템 설계 |
+
+### BSRS
+
+| 키워드 | 파일 | 줄 범위 | 세부 섹션 |
+|--------|------|---------|----------|
+| threat motivations | ch02_understanding-adversaries.md | 25-56 | 공격자 동기 |
+| threat profiles | ch02_understanding-adversaries.md | 57-272 | 공격자 프로파일 |
+| threat insider risk | ch02_understanding-adversaries.md | 217-272 | 내부자 위협 |
+| threat methods | ch02_understanding-adversaries.md | 273-343 | 공격 방법론 |
+| threat risk assessment | ch02_understanding-adversaries.md | 344-364 | 리스크 평가 |
+| zero trust concepts | ch05_design-least-privilege.md | 25-40 | 제로 트러스트 개념 |
+| zero trust classifying | ch05_design-least-privilege.md | 41-74 | 접근 분류 |
+| zero trust best practices | ch05_design-least-privilege.md | 75-230 | 모범 사례 |
+| zero trust policy | ch05_design-least-privilege.md | 318-387 | 정책 프레임워크 |
+| zero trust advanced | ch05_design-least-privilege.md | 388-479 | 고급 제어 |
+| resilience defense depth | ch08_design-resilience.md | 45-144 | 심층 방어 |
+| resilience degradation | ch08_design-resilience.md | 145-290 | 성능 저하 제어 |
+| resilience blast radius | ch08_design-resilience.md | 291-386 | 폭발 반경 |
+| resilience failure domains | ch08_design-resilience.md | 387-514 | 장애 도메인, 중복성 |
+| resilience validation | ch08_design-resilience.md | 515-626 | 지속적 검증 |
+| disaster recovery design | ch09_design-recovery.md | 57-372 | 복구 설계 원칙 |
+| disaster recovery rollback | ch09_design-recovery.md | 129-192 | 롤백 트레이드오프 |
+| disaster recovery emergency | ch09_design-recovery.md | 381-420 | 긴급 접근 |
+| disaster planning define | ch16_disaster-planning.md | 23-44 | 재해 정의 |
+| disaster planning response | ch16_disaster-planning.md | 89-236 | 인시던트 대응 팀 |
+| disaster planning prestaging | ch16_disaster-planning.md | 237-278 | 사전 준비 |
+| disaster planning testing | ch16_disaster-planning.md | 279-440 | 테스트, DiRT, 사례 |
+| secure coding frameworks | ch12_writing-code.md | 27-174 | 프레임워크 활용 |
+| secure coding vulnerabilities | ch12_writing-code.md | 175-331 | 일반 취약점 (SQL injection, XSS) |
+| secure coding simplicity | ch12_writing-code.md | 386-455 | 단순성 원칙 |
+| secure coding defaults | ch12_writing-code.md | 456-575 | 기본값 보안 |
+| crisis is it | ch17_crisis-management.md | 27-82 | 위기 판단 기준 |
+| crisis command | ch17_crisis-management.md | 83-254 | 지휘 체계, 팀, OpSec |
+| crisis control | ch17_crisis-management.md | 255-347 | 통제 유지 |
+| crisis communications | ch17_crisis-management.md | 348-464 | 커뮤니케이션 |
+| DoS strategies | ch10_mitigating-dos.md | 21-60 | 공격/방어 전략 |
+| DoS architecture | ch10_mitigating-dos.md | 61-99 | 방어 가능한 아키텍처 |
+| DoS mitigation system | ch10_mitigating-dos.md | 100-171 | 완화 시스템 |
+| DoS self-inflicted | ch10_mitigating-dos.md | 172-207 | 자초한 공격 |
+| circuit breaker shedding | ch08_design-resilience.md | 235-264 | 부하 차단, 스로틀링 |
+| circuit breaker failover | ch08_design-resilience.md | 489-514 | 페일오버 전략 |
